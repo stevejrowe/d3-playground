@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import DonutChart from './DonutChart'
+import DonutChart from './DonutChart.jsx'
 
 const data = [
   {

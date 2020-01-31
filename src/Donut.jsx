@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { arc } from 'd3-shape'
 
-import DonutLabel from './DonutLabel'
-import DonutEndcap from './DonutEndcap'
+import DonutLabel from './DonutLabel.jsx'
+import DonutEndcap from './DonutEndcap.jsx'
 
 const getPercentage = decimal => {
   return `${parseInt(decimal * 100)}%`

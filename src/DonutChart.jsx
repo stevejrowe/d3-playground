@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Donut from './Donut'
+import Donut from './Donut.jsx'
 
 const DonutChart = data => {
   return (
