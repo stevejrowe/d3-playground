@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import Donut from './Donut.jsx'
 
-const DonutChart = data => {
+const DonutChart = ({data}) => {
   return (
     <svg width="240" height="240">
       <g transform="translate(120, 120)">
