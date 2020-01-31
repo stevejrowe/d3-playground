@@ -1,5 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App.jsx'
+import DonutChart from './DonutChart'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const data = [
+  {
+    value: 0.78,
+    name: 'Burn Rate'
+  },
+  {
+    value: 0.75,
+    name: 'Money Spent'
+  },
+  {
+    value: 0.58,
+    name: 'Time Used'
+  }
+]
+
+ReactDOM.render(<DonutChart data={data} />, document.getElementById('root'))
